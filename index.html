@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="منصة ميكس كيميا - مستر محمد عارف لشرح الكيمياء للثانوي.">
+  <title>ميكس كيميا - مستر محمد عارف</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    /* Hero Section بخلفية الصورة */
+    .hero {
+      background: url("hero-bg.jpg") center center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 140px 20px;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+    }
+
+    .hero h1, .hero p {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero h1 {
+      font-size: 34px;
+      margin-bottom: 15px;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    }
+
+    /* الأزرار */
+    .btn {
+      display: block;
+      width: 280px;
+      margin: 15px auto;
+      padding: 15px;
+      background-color: #1d3557;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .btn:hover { background-color: #457b9d; transform: translateY(-3px); }
+    .btn-video { background-color: #ff4500; }
+    .btn-video:hover { background-color: #e03d00; }
+    .btn-facebook { background-color: #1877f2; }
+    .btn-facebook:hover { background-color: #145dbf; }
+    .btn-youtube { background-color: #ff0000; }
+    .btn-youtube:hover { background-color: #cc0000; }
+    .btn-tiktok { background-color: #000; }
+    .btn-tiktok:hover { background-color: #222; }
+    .btn-telegram { background-color: #0088cc; }
+    .btn-telegram:hover { background-color: #006fa1; }
+    .btn-whatsapp { background-color: #25d366; }
+    .btn-whatsapp:hover { background-color: #1ebe5d; }
+
+    .section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .section-title {
+      font-size: 26px;
+      margin-bottom: 25px;
+      color: #1d3557;
+      font-weight: 700;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1d3557;
+      color: #fff;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    i { margin-left: 8px; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero { padding: 100px 15px; }
+      .hero h1 { font-size: 28px; }
+      .hero p { font-size: 18px; }
+      .btn { width: 90%; font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>اهلا بيك في عيلتنا</h1>
+    <p>مع ميكس كيميا - مستر محمد عارف</p>
+  </section>
+
+  <section class="section">
+    <a href="https://mix-chemistry.com/home" target="_blank" class="btn">🌐 المنصة</a>
+    <a href="https://youtu.be/zzdqyYfpw88?feature=shared" target="_blank" class="btn btn-video">🎥 ازاي تشترك في المنصة</a>
+  </section>
+
+  <section class="section">
+    <div class="section-title">الدعم الفني</div>
+    <a href="tel:01503737670" class="btn">📞 اتصل بالدعم الفني</a>
+  </section>
+
+  <section class="section">
+    <div class="section-title">الدعم العلمي</div>
+    <a href="tel:01557102966" class="btn">📚 3 ث (رقم 1)</a>
+    <a href="tel:01559828600" class="btn">📚 3 ث (رقم 2)</a>
+    <a href="#" class="btn">📘 2 ث</a>
+    <a href="#" class="btn">📗 1 ث</a>
+  </section>
+
+  <section class="section">
+    <div class="section-title">تابعنا على</div>
+    <a href="https://facebook.com/mixchemistry1" target="_blank" class="btn btn-facebook"><i class="fab fa-facebook"></i> فيسبوك</a>
+    <a href="https://youtube.com/@mixchemistry1" target="_blank" class="btn btn-youtube"><i class="fab fa-youtube"></i> يوتيوب</a>
+    <a href="https://www.tiktok.com/@mixchemistry1" target="_blank" class="btn btn-tiktok"><i class="fab fa-tiktok"></i> تيكتوك</a>
+  </section>
+
+  <footer>
+    © 2025 ميكس كيميا - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
